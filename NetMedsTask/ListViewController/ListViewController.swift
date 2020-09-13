@@ -115,7 +115,7 @@ extension ListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell:TestTableViewCell? = tableView.cellForRow(at: indexPath) as?  TestTableViewCell
         
-        if let index = selectedTestPackage.firstIndex(where: {$0.Sno == testPackage[indexPath.row].Sno}) {
+        if let index = selectedTestPackage.firstIndex(where: {$0.Sno == testPackage[indexPath.row].Sno}) { // map to remove already selected when tapped twice on same row
             selectedTestPackage.remove(at: index)
             cell?.updateSelectedImage(isSelected: false)
             
