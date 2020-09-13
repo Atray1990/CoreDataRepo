@@ -20,7 +20,6 @@
 		3FE2A6B82509096400399B6C /* NetMedsTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A6B72509096400399B6C /* NetMedsTaskTests.swift */; };
 		3FE2A6C32509096400399B6C /* NetMedsTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A6C22509096400399B6C /* NetMedsTaskUITests.swift */; };
 		3FE2A6D1250909AC00399B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE2A6D0250909AC00399B6C /* Main.storyboard */; };
-		3FE2A6D525090B0D00399B6C /* CommonCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A6D325090B0D00399B6C /* CommonCategories.swift */; };
 		3FE2A6D925090B1B00399B6C /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A6D825090B1B00399B6C /* TestTableViewCell.swift */; };
 		3FE2A6DC25090C4100399B6C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A6DB25090C4100399B6C /* ListViewController.swift */; };
 		3FE2A6DE25090D7D00399B6C /* TestPackageModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A6DD25090D7C00399B6C /* TestPackageModal.swift */; };
@@ -67,7 +66,6 @@
 		3FE2A6C22509096400399B6C /* NetMedsTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetMedsTaskUITests.swift; sourceTree = "<group>"; };
 		3FE2A6C42509096400399B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FE2A6D0250909AC00399B6C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		3FE2A6D325090B0D00399B6C /* CommonCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonCategories.swift; sourceTree = "<group>"; };
 		3FE2A6D825090B1B00399B6C /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 		3FE2A6DB25090C4100399B6C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		3FE2A6DD25090D7C00399B6C /* TestPackageModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPackageModal.swift; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 				3FE2A6DA25090C0800399B6C /* ListViewController */,
 				3F8AF0ED250B6D5C0078CC45 /* CartViewController */,
 				3FE2A6D725090B1B00399B6C /* TableViewCell */,
-				3FE2A6D225090B0D00399B6C /* Generic Classes */,
 				3FE2A69D2509095E00399B6C /* AppDelegate.swift */,
 				3FE2A69F2509095E00399B6C /* SceneDelegate.swift */,
 				3FE2A6A12509095E00399B6C /* ViewController.swift */,
@@ -168,14 +165,6 @@
 				3FE2A6C42509096400399B6C /* Info.plist */,
 			);
 			path = NetMedsTaskUITests;
-			sourceTree = "<group>";
-		};
-		3FE2A6D225090B0D00399B6C /* Generic Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3FE2A6D325090B0D00399B6C /* CommonCategories.swift */,
-			);
-			path = "Generic Classes";
 			sourceTree = "<group>";
 		};
 		3FE2A6D725090B1B00399B6C /* TableViewCell */ = {
@@ -336,7 +325,6 @@
 				3FE2A6E225090EDE00399B6C /* GetDataRequestHandler.swift in Sources */,
 				3F653BDB250E0F3200BC2617 /* CartRequestHandler.swift in Sources */,
 				3F5D1410250B77F80063F4B5 /* CartNavigatorClass.swift in Sources */,
-				3FE2A6D525090B0D00399B6C /* CommonCategories.swift in Sources */,
 				3FE2A69E2509095E00399B6C /* AppDelegate.swift in Sources */,
 				3F5D1412250B78400063F4B5 /* CartEventHandler.swift in Sources */,
 				3FE2A6A02509095E00399B6C /* SceneDelegate.swift in Sources */,
