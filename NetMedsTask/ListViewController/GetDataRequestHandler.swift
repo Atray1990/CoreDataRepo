@@ -12,7 +12,7 @@ import Foundation
 public protocol GetDataRequestHandlerUseCase {
     func requestForUserDataWith(requestUrl: URL, completionHandler: @escaping(_ result: [TestPackage]) -> ())}
 
-extension GetDataRequestHandler {
+extension GetDataRequestHandlerUseCase {
     
     public func requestForUserDataWith(requestUrl: URL, completionHandler: @escaping(_ result: [TestPackage]) -> ()) {
         

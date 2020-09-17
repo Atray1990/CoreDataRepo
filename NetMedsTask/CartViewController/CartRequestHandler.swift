@@ -13,7 +13,7 @@ import UIKit
 public protocol CartRequestHandlerUseCase {
     func coreDataFetch(completionHandler: @escaping(_ result: [NSManagedObject]) -> ())}
 
-extension CartRequestHandler {
+extension CartRequestHandlerUseCase {
     
     public func coreDataFetch(completionHandler: @escaping(_ result: [NSManagedObject]) -> ()) {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -28,7 +28,6 @@ extension CartRequestHandler {
             }
             
         } catch {
-            
             print("Failed")
         }
     }
